@@ -1,0 +1,190 @@
+    body {
+        margin: 0;
+        background-color: #eaeaf4;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #e9e7e7;
+        padding: 0 40px;
+    }
+    
+    .nav-left ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+    }
+    
+    .nav-left img {
+        margin-right: 50px;
+    }
+    
+    .nav-left ul li {
+        margin-right: 30px;
+        font-size: 18px;
+    }
+    
+    .nav-left a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav-left a:hover {
+        color: orangered;
+    }
+    
+    .nav-right a {
+        background-color: orangered;
+        margin-right: 50px;
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    form {
+        width: 350px;
+        margin: 50px auto;
+    }
+
+    input {
+        box-shadow: 0 0 10px #b8b5b5;
+    }
+    
+    select {
+        box-shadow: 0 0 10px #b8b5b5;
+        width: 200%;
+        padding-right: 10px;
+    }
+
+    .form-subject {
+        width: 373px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #dbdbdb;
+        margin-top: 5px;
+    }
+    
+    textarea {
+        box-shadow: 0 0 10px #b8b5b5;
+        resize: none;
+        height: 100px;
+    }
+    
+    form div {
+        margin-top: 10px;
+    }
+    
+    form label {
+        font-weight: bold;
+    }
+    
+    .button-content{
+        box-shadow: 0 0 10px #312d2d;
+        background-color: rgb(28, 28, 34);
+        padding: 8px 30px;
+        color: white;
+        border: none;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 270px;
+        border-radius: 20px;
+    }
+
+    .button-content:hover {
+        background-color: aqua;
+    }
+
+    
+
+
+    /* home utama start */
+    .conatainer-home {
+        margin: 50px auto; 
+        width: 800px; 
+        height: 400px; 
+        border: 0px solid #3d3d3d; 
+        padding: 15px; 
+        border-radius: 15px; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        box-shadow: 0 0 30px #3d3d3d;
+        display: flex;
+        background-color: white;
+    }
+
+    span{
+        display: flex;
+    }
+    
+    .button-home {
+        box-shadow: 0 0 10px #312d2d;
+        background-color: rgb(28, 28, 34);
+        padding: 8px 30px;
+        color: #efeffa;
+        border: none;
+        text-decoration: none;
+        border-radius: 20px;
+        font-size: 12px;
+        margin-top: 48px;
+    }
+
+    .button-home:hover {
+        background-color: aqua;
+    } 
+
+    .download {
+        font-size: 20px;
+        margin-left: 22px;
+        margin-top: 25px;
+    }
+
+/* sosmed */
+    .sosmed{
+        margin-top: 30px;
+    }
+
+/* sosmed end */
+    .conatainer-home-left{
+        width: 400px;
+    }
+
+    /* gambar */
+    .img-home-1{
+        text-align: center; 
+        margin: 20px 50px;
+        width: 280px;
+        height: 350px;  
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 30px #3d3d3d;
+    }
+
+    .img-home-1 img{
+    width: 280px; 
+    height: 240px; 
+    border-radius: 8px 8px 0px 0px ;
+    }
+
+    .img-home-1 h3{
+    
+    text-align: center; font-family: 'Times New Roman', Times, serif;
+    }
+
+    .img-home-1 p{
+    font-size: 20px; text-align: center; font-family: 'Times New Roman', Times, serif;
+    }
+
+    /* gambar */
+    
+    /* home finish */
+
+
